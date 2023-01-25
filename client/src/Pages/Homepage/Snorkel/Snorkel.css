@@ -1,0 +1,27 @@
+.snorkel {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 389px) {
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+}
+
+@media screen and (min-width: 1440px) {
+    .snorkel {
+        margin: 80px;
+    }
+}

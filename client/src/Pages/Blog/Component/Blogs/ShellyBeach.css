@@ -1,0 +1,813 @@
+.shelly-beach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* > p {
+    padding: 0;
+    margin: 0;
+}
+
+.shelly-beach-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.shelly-beach-title p {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.shelly-beach-story-hero-img {
+    display: flex;
+    width: 100%;
+}
+
+.shelly-beach-coordinates {
+    display: flex;
+}
+
+.shelly-beach-coordinates p {
+    margin: 0;
+    padding: 0;
+}
+
+.shelly-beach-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.shelly-beach-text-content-paragraph p {
+    margin: 0;
+    padding: 0;
+}
+
+.shelly-beach-text-content-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shelly-beach-text-content-subtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.shelly-beach-text-content-subtext-describe, .shelly-beach-text-content-subtext-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.shelly-beach-text-content-subtext-subtitle p {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+
+.shelly-beach-text-content-subtext-describe p {
+    margin: 0;
+    padding: 0;
+}
+
+.shelly-beach-text-content-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.shelly-beach-text-content-paragraph-list ul {
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.shelly-beach-text-content-img figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shelly-beach-text-content-img figure figcaption {
+    text-align: center;
+}
+
+@media screen and (max-width: 389px) {
+    .shelly-beach {
+        margin:20px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 12px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 10px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .shelly-beach {
+        margin: 30px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 12px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 12px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .shelly-beach {
+        margin: 30px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 16px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .shelly-beach {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 14px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .shelly-beach {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .shelly-beach {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 24px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .shelly-beach {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .shelly-beach-header {
+        row-gap: 20px;
+    }
+
+    .shelly-beach-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .shelly-beach-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .shelly-beach-story-hero-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .shelly-beach-coordinates p {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .shelly-beach-text-content-paragraph p {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .shelly-beach-text-content-subtext-subtitle p {
+        font-size: 24px;
+    }
+
+    .shelly-beach-text-content-subtext-describe p {
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .shelly-beach-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .shelly-beach-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .shelly-beach-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .shelly-beach-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .shelly-beach-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

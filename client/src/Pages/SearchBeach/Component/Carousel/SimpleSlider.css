@@ -1,0 +1,833 @@
+.simple-slider {
+    background: #000000;
+    display: flex;
+}
+
+.simple-slider .header {
+    display: flex;
+}
+
+.simple-slider h2 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: flex-start;
+}
+
+.slider-buttons {
+    display: flex;
+}
+
+.slider-buttons button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+
+.slider-buttons button i {
+    color: #ffffff;
+}
+
+.slick-slide {
+    height: 200px !important;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-current + div div {
+    width: 100% !important;
+    /*height: 100% !important;*/
+}
+
+.items {
+    display: flex !important;
+}
+
+.figure-description {
+    color: #ffffff;
+    display: none;
+}
+
+.figure-curent-details {
+    display: none;
+}
+
+.figure-curent-details p {
+    color: #000;
+    font-weight: 600;
+}
+
+.figure {
+    position: relative;
+}
+
+@media screen and (max-width: 389px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 20px 35px 20px;
+        row-gap: 20px;
+    }
+
+    .simple-slider .header {
+        flex-direction: column;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 12px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 16px;
+    }
+
+    .slick-track {
+        height: 280px !important;
+    }
+
+    .slider-buttons {
+        column-gap: 10px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 18px;
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-buttons button i {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slick-slide {
+        height: 120px !important;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    .slick-slide div div img {
+        height: 250px !important;
+        width: 100%;
+    }
+
+    .slick-current + div {
+        /*width: 200px !important;*/
+    }
+
+    .slick-current + div div div {
+        position: relative;
+    }
+
+    .slick-current div > div > .figure > .figure-description {
+        display: none;
+    }
+
+    .slick-active div > div > .figure > .figure-curent-details {
+        display: none;
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 40px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details p {
+        font-size: 14px;
+    }
+
+    .slick-current + div div img {
+        height: 250px !important;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 20px 35px 20px;
+        row-gap: 20px;
+    }
+
+    .simple-slider .header {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 40px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 16px;
+    }
+
+    .slick-track {
+        height: 450px !important;
+    }
+
+    .slider-buttons {
+        column-gap: 10px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 18px;
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-buttons button i {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slick-slide {
+        /*height: 120px !important;*/
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .slick-slide div div img {
+        height: 380px !important;
+        width: 100%;
+    }
+
+    .slick-current + div {
+        /*width: 200px !important;*/
+    }
+
+    .slick-current + div div img {
+        height: 380px !important;
+    }
+
+    .slick-current div > div > .figure > .figure-description {
+        display: none;
+    }
+
+    .slick-active div > div > .figure > .figure-curent-details {
+        display: none;
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details p {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 40px 35px 40px;
+        row-gap: 20px;
+    }
+
+    .simple-slider .header {
+        flex-direction: column;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 12px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 16px;
+    }
+
+    .slick-track {
+        height: 280px !important;
+    }
+
+    .slider-buttons {
+        column-gap: 10px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 18px;
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-buttons button i {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slick-slide {
+        height: 120px !important;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .slick-slide div div img {
+        height: 250px !important;
+        width: 100%;
+    }
+
+    .slick-current + div {
+        /*width: 200px !important;*/
+    }
+
+    .slick-current + div div img {
+        height: 250px !important;
+    }
+
+    .slick-current div > div > .figure > .figure-description {
+        display: none;
+    }
+
+    .slick-active div > div > .figure > .figure-curent-details {
+        display: none;
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details p {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 0 35px 0;
+        row-gap: 20px;
+    }
+
+    .simple-slider .header {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 60px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 22px;
+    }
+
+    .slick-track {
+        height: 280px !important;
+        column-gap: 40px;
+    }
+
+    .slider-buttons {
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .slider-buttons button i {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .slick-slide {
+        height: 150px !important;
+        padding-top: 20px;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .slick-slide div div img {
+        height: 150px !important;
+        width: 100%;
+    }
+
+    .slick-current + div {
+        width: 450px !important;
+        padding-top: 0 !important;
+    }
+
+    .slick-current + div div img {
+        height: 220px !important;
+    }
+
+    .slick-active div div .figure .figure-description {
+        display: flex;
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slick-current + div div .figure .figure-description {
+        display: none;
+    }
+
+    .slick-current + div > div > div > .figure .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .slick-current + div > div > .figure > .figure-curent-details {
+
+    }
+
+    .slick-current div > div > .figure > .figure-curent-details p {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 40px 0 35px 0;
+        row-gap: 30px;
+    }
+
+    .simple-slider .header {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 80px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 26px;
+    }
+
+    .slick-track {
+        height: 350px !important;
+        column-gap: 40px;
+    }
+
+    .slider-buttons {
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slider-buttons button i {
+        /*font-size: 18px;*/
+        text-align: center;
+    }
+
+    .slick-slide {
+        height: 180px !important;
+        padding-top: 20px;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .slick-slide div div img {
+        height: 180px !important;
+        width: 100%;
+    }
+
+    .slick-current + div {
+        width: 500px !important;
+        padding-top: 0 !important;
+    }
+
+    .slick-current + div div img {
+        height: 280px !important;
+    }
+
+    .slick-active div div .figure .figure-description {
+        display: flex;
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slick-current + div div .figure .figure-description {
+        display: none;
+    }
+
+    .slick-current + div > div > div > .figure .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .figure-curent-details p {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 0 45px 0;
+        row-gap: 60px;
+    }
+
+    .simple-slider .header {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 100px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 30px;
+    }
+
+    .slick-track {
+        height: 350px !important;
+        column-gap: 50px;
+    }
+
+    .slider-buttons {
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .slick-slide {
+        height: 190px !important;
+        padding-top: 20px;
+    }
+
+    .slick-slide div div img {
+        width: auto;
+        height: 200px !important;
+    }
+
+    .slick-current + div {
+        width: 550px !important;
+        padding-top: 0 !important;
+    }
+
+    .slick-current + div div img {
+        height: 280px !important;
+        width: 550px;
+    }
+
+    .slick-active div div .figure .figure-description {
+        display: flex;
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slick-current + div div .figure .figure-description {
+        display: none;
+    }
+
+    .slick-current + div > div > div > .figure .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .figure-curent-details p {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .simple-slider {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 0 45px 0;
+        row-gap: 60px;
+    }
+
+    .simple-slider .header {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 100px;
+        align-items: center;
+    }
+
+    .simple-slider h2 {
+        font-size: 30px;
+    }
+
+    .slick-track {
+        height: 400px !important;
+        column-gap: 50px;
+    }
+
+    .slider-buttons {
+        column-gap: 20px;
+        align-items: center;
+    }
+
+    .slider-buttons button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-slide {
+        height: 200px !important;
+        object-fit: cover;
+        padding-top: 30px;
+    }
+
+    .slick-slide div div img {
+        height: 200px !important;
+        width: 100%;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .figure-description {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .slick-current + div {
+        width: 800px !important;
+        padding-top: 0 !important;
+    }
+
+    .slick-current + div div img {
+        height: 350px !important;
+    }
+
+    .slick-active div div .figure .figure-description {
+        display: flex;
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slick-current + div div .figure .figure-description {
+        display: none;
+    }
+
+    .slick-current + div > div > div > .figure .figure-curent-details {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        background: #989898;
+        margin: 0px;
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    .figure-curent-details p {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items {
+        flex-direction: column;
+        row-gap: 20px;
+        color: #ffffff;
+    }
+}

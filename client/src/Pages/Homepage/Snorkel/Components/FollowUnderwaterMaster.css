@@ -1,0 +1,801 @@
+.followUnderwaterMaster {
+    display: flex;
+}
+
+.image-holder {
+    position: relative;
+    text-align: center;
+}
+
+.image-description {
+    position: absolute;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    margin: auto;
+    color: white;
+    font-family: Poppins-Medium, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #00e5bf;
+    -moz-text-decoration-color: #00e5bf;
+    -webkit-text-decoration-color: #00e5bf;
+}
+
+.black-letter {
+    color: #000000;
+}
+
+@media screen and (max-width: 389px) {
+    .followUnderwaterMaster {
+        margin: 40px 20px;
+        flex-direction: column-reverse;
+        row-gap: 48px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        row-gap: 14px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        background-color: #000000;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins-Regular, sans-serif;
+        font-size: 13px;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 10px;
+        text-underline-offset: 5px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 120px;
+        height: 100px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .followUnderwaterMaster {
+        margin: 40px 20px;
+        flex-direction: column-reverse;
+        row-gap: 48px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        row-gap: 14px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 10px;
+        text-underline-offset: 5px;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        backgroundColor: #000000;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins-Regular, sans-serif;
+        font-size: 12px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 140px;
+        height: 70px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .followUnderwaterMaster {
+        margin: 40px 20px;
+        flex-direction: column-reverse;
+        row-gap: 48px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+        row-gap: 20px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        backgroundColor: #000000;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 10px;
+        text-underline-offset: 10px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins-Regular, sans-serif;
+        font-size: 13px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 190px;
+        height: 70px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .followUnderwaterMaster {
+        margin: 40px 20px;
+        flex-direction: row;
+        column-gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+        row-gap: 10px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 10px;
+        text-underline-offset: 5px;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins-Regular, sans-serif;
+        font-size: 12px;
+        width: 220px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 180px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 160px;
+        height: 120px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .followUnderwaterMaster {
+        margin: 60px 60px;
+        flex-direction: row;
+        column-gap: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+        row-gap: 14px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        width: 380px;
+        font-size: 20px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        font-family: Poppins-Regular, sans-serif;
+        font-size: 12px;
+        width: 350px;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 12px;
+        text-underline-offset: 5px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 200px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 200px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 160px;
+        height: 120px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .followUnderwaterMaster {
+        margin: 60px 80px;
+        flex-direction: row;
+        column-gap: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+        row-gap: 16px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        width: 530px;
+        font-size: 24px;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 13px;
+        text-underline-offset: 8px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 226px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 226px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        /*background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);*/
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 200px;
+        height: 160px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .followUnderwaterMaster {
+        margin: 60px 80px;
+        flex-direction: row;
+        column-gap: 180px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .followUnderwaterMaster-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+        row-gap: 24px;
+    }
+
+    .followUnderwaterMaster-text-heading p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .followUnderwaterMaster-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .followUnderwaterMaster-text-title p {
+        margin: 0;
+        padding: 0;
+        width: 530px;
+        font-size: 30px;
+    }
+
+    .followUnderwaterMaster-text-describe p {
+        margin: 0;
+        padding: 0;
+        width: 450px;
+    }
+
+    .image-description {
+        bottom: 10px;
+        font-size: 15px;
+        text-underline-offset: 8px;
+    }
+
+    .followUnderwaterMaster-buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: auto;
+    }
+
+    .followUnderwaterMaster-buttons-gradient {
+        width: 226px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        column-gap: 10px;
+        align-items: center;
+        margin: 0;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+        background: rgb(0, 215, 229);
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+        border: 0;
+    }
+
+    .followUnderwaterMaster-buttons-gray {
+        width: 226px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 60px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0;
+        background: lightgray;
+        /*background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);*/
+        border: 0;
+    }
+
+    .followUnderwaterMaster-image {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .followUnderwaterMaster-image img {
+        width: 260px;
+        height: 200px;
+    }
+
+    .followUnderwaterMaster-image .rowImage {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+}

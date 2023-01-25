@@ -1,0 +1,308 @@
+.banner {
+    background-color: #000000;
+    color: #ffff;
+    font-weight: 400;
+    display: flex;
+    font-family: Poppins-Medium, sans-serif;
+}
+
+.banner-gradient-btn {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    column-gap: 8px;
+    background: #00D7E5;
+    background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner-text-description p {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 388px) {
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .banner .banner-text {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 25px;
+        margin: 20px;
+        /*height: 557px;*/
+    }
+
+    .banner .banner-text-title h4 {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner .banner-text-description p {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    .banner-gradient-btn {
+        height: 40px;
+        width: 200px;
+    }
+
+    .banner .banner-img {
+        height: auto;
+    }
+
+    .banner .banner-img img {
+        width: 100%;
+        height: 325px;
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner .banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 0 0 40px;
+        row-gap: 10px;
+        height: 250px;
+    }
+
+    .banner-text-title h4 {
+        width: 300px;
+        font-size: 22px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner-gradient-btn {
+        height: 40px;
+        width: 207px;
+    }
+
+    .banner .banner-text-description p {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .banner .banner-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .banner .banner-img img {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .banner .banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 0 0 40px;
+        row-gap: 10px;
+        height: 307px;
+    }
+
+    .banner-text-title h4 {
+        width: 300px;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner .banner-text-description p {
+        width: 280px;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: white;
+    }
+
+    .banner-gradient-btn {
+        height: 40px;
+        width: 207px;
+    }
+
+    .banner .banner-img {
+        height: auto;
+        width: 100%;
+    }
+
+    .banner .banner-img img {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .banner .banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 0 0 20px;
+        row-gap: 20px;
+        height: 450px;
+    }
+
+    .banner .banner-text-title h4 {
+        width: 251px;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner .banner-text-description p {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: white;
+    }
+
+    .banner-gradient-btn {
+        height: 40px;
+        width: 207px;
+
+    }
+
+    .banner .banner-img {
+        /*height: auto;*/
+        width: 50%;
+    }
+
+    .banner .banner-img img {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .banner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .banner .banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 0 0 80px;
+        row-gap: 25px;
+        height: 557px;
+    }
+
+    .banner .banner-text-title h4 {
+        width: 351px;
+        font-size: 36px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner .banner-text-description p {
+        width: 440px;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        color: white;
+    }
+
+    .banner .banner-img {
+        height: auto;
+        width: 50%;
+    }
+
+    .banner-gradient-btn {
+        height: 50px;
+        width: 207px;
+    }
+
+    .banner .banner-img img {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .banner {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .banner .banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 0 0 80px;
+        row-gap: 25px;
+        height: 557px;
+    }
+
+    .banner .banner-text-title h4 {
+        width: 351px;
+        font-size: 36px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner .banner-text-description p {
+        width: 440px;
+        font-size: 15px;
+        color: white;
+    }
+
+    .banner .banner-img {
+        height: auto;
+        width: 50%;
+    }
+
+    .banner-gradient-btn {
+        height: 60px;
+        width: 207px;
+    }
+
+    .banner .banner-img img {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}

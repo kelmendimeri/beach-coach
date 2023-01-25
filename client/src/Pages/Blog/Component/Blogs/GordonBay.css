@@ -1,0 +1,817 @@
+.gordon-bay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* > p {
+    padding: 0;
+    margin: 0;
+}
+
+.gordon-bay-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.gordon-bay-title p {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.gordon-bay-story-hero-img {
+    display: flex;
+    width: 100%;
+}
+
+.gordon-bay-coordinates {
+    display: flex;
+}
+
+.gordon-bay-coordinates p {
+    margin: 0;
+    padding: 0;
+}
+
+.gordon-bay-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.gordon-bay-text-content-paragraph p {
+    margin: 0;
+    padding: 0;
+}
+
+.gordon-bay-text-content-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gordon-bay-text-content-subtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gordon-bay-text-content-subtext-describe, .gordon-bay-text-content-subtext-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.gordon-bay-text-content-subtext-subtitle p {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+
+.gordon-bay-text-content-subtext-describe p {
+    margin: 0;
+    padding: 0;
+}
+
+.gordon-bay-text-content-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.gordon-bay-text-content-paragraph-list ul {
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.gordon-bay-text-content-img figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gordon-bay-text-content-img figure figcaption {
+    text-align: center;
+}
+
+.gordon-bay-text-content-links {
+    width: 100%;
+}
+
+@media screen and (max-width: 389px) {
+    .gordon-bay {
+        margin: 20px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 12px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 10px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .gordon-bay {
+        margin: 30px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 12px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 12px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .gordon-bay {
+        margin: 30px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 16px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .gordon-bay {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 14px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .gordon-bay {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .gordon-bay {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 24px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .gordon-bay {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .gordon-bay-header {
+        row-gap: 20px;
+    }
+
+    .gordon-bay-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gordon-bay-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .gordon-bay-story-hero-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gordon-bay-coordinates p {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .gordon-bay-text-content-paragraph p {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .gordon-bay-text-content-subtext-subtitle p {
+        font-size: 24px;
+    }
+
+    .gordon-bay-text-content-subtext-describe p {
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .gordon-bay-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .gordon-bay-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .gordon-bay-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .gordon-bay-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .gordon-bay-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

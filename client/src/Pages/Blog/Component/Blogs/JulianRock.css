@@ -1,0 +1,911 @@
+.julian-rock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* > p {
+    padding: 0;
+    margin: 0;
+}
+
+.julian-rock-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.julian-rock-title p {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.julian-rock-story-hero-img {
+    display: flex;
+    width: 100%;
+}
+
+.julian-rock-coordinates {
+    display: flex;
+}
+
+.julian-rock-coordinates p {
+    margin: 0;
+    padding: 0;
+}
+
+.julian-rock-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.julian-rock-text-content-paragraph p {
+    margin: 0;
+    padding: 0;
+}
+
+.julian-rock-text-content-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.julian-rock-text-content-subtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.julian-rock-text-content-subtext-describe, .julian-rock-text-content-subtext-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.julian-rock-text-content-subtext-subtitle p {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+
+.julian-rock-text-content-subtext-describe p {
+    margin: 0;
+    padding: 0;
+}
+
+.julian-rock-text-content-subtext-describe-table-and-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.julian-rock-text-content-subtext-describe-table-and-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.julian-rock-text-content-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+@media screen and (max-width: 389px) {
+    .julian-rock {
+        margin: 15px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 15px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content-subtext-describe p {
+        font-size: 11px;
+
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 10px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 3px 5px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 5px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .julian-rock {
+        margin: 20px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 11px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content-subtext-describe p {
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 12px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 5px 10px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 10px 10px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .julian-rock {
+        margin: 40px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 12px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 15px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 18px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 14px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 5px 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 10px 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .julian-rock {
+        margin: 40px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 14px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 16px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 18px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 16px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 5px 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 10px 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .julian-rock {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 16px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 18px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 5px 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 10px 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .julian-rock {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 18px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 22px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 20px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 5px 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 10px 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .julian-rock {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .julian-rock-header {
+        row-gap: 20px;
+    }
+
+    .julian-rock-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .julian-rock-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .julian-rock-story-hero-img img {
+        width: 100%;
+    }
+
+    .julian-rock-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .julian-rock-coordinates p {
+        font-size: 18px;
+    }
+
+    .julian-rock-text-content {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .julian-rock-text-content-paragraph p {
+        font-size: 22px;
+    }
+
+    .julian-rock-text-content-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .julian-rock-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .julian-rock-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table {
+        font-size: 20px;
+        /*width: 100%;*/
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th {
+        font-weight: 600;
+        padding: 5px 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td {
+        padding: 10px 20px;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table th:first-child {
+        border-right: 2px solid black;
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table td:first-child {
+        border-right: 2px solid black;
+        white-space: nowrap;
+
+    }
+
+    .julian-rock-text-content-subtext-describe-table-and-img table tbody tr {
+        padding: 20px;
+    }
+
+    .julian-rock-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .julian-rock-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

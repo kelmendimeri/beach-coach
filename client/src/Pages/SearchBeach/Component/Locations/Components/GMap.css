@@ -1,0 +1,764 @@
+.google-map {
+    position: relative;
+}
+
+.google-map-modal {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    transform: translate(-50%, 50%);
+    background: #000000;
+}
+
+.google-map-search-location-modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #000000;
+}
+
+.google-map-modal-title p {
+    color: #ffffff;
+}
+
+.google-map-search-location-modal p {
+    color: #ffffff;
+}
+
+.google-map-modal-buttons {
+    display: flex;
+    width: 100%;
+}
+
+.google-map-modal-buttons button {
+    display: flex;
+    font-weight: 500;
+    background: transparent;
+    color: #00e5bf;
+    border: 0;
+}
+
+.google-map-search-location-modal-title {
+    position: relative;
+    padding: 0;
+}
+
+.google-map-search-location-modal-title i {
+    position: fixed;
+    color: #00e5bf;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.google-map-search-location-modal-select {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.google-map-search-location-modal .google-map-search-location-modal-select select {
+    background: #000000;
+    color: #ffffff;
+    width: auto;
+    border: 0;
+}
+
+select option {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.google-map-search-location-modal-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.google-map-search-location-modal-input input {
+    border: 0;
+    background: #2d2d2d;
+    color: #ffffff;
+}
+
+.google-map-search-location-modal-input input:focus {
+    background: #2d2d2d;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.google-map-search-location-modal-input div {
+    background: #2d2d2d;
+    border-radius: 6px;
+}
+
+.google-map-search-location-modal-input div i {
+    font-size: 20px;
+    height: 100%;
+    border: 0;
+    color: #848484;
+}
+
+.google-map-search-location-modal-input i {
+    border: 0;
+}
+
+.input-group-append {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closed-search-modal {
+    position: absolute;
+    background: #ffffff;
+    border: 0;
+    color: #000000;
+}
+
+@media screen and (max-width: 389px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 18px;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        width: auto;
+        height: 40px;
+        text-indent: 10px;
+        font-size: 14px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 200px;
+        width: 220px;
+        row-gap: 15px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 40%;
+        width: 220px;
+        row-gap: 10px;
+        padding: 0 20px;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 45px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 18px;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        width: auto;
+        height: 40px;
+        text-indent: 10px;
+        font-size: 14px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 200px;
+        width: 280px;
+        row-gap: 15px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 40%;
+        width: 250px;
+        row-gap: 20px;
+        padding: 0 30px;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 45px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 18px;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        width: auto;
+        height: 40px;
+        text-indent: 10px;
+        font-size: 14px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 200px;
+        width: 280px;
+        row-gap: 15px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 40%;
+        width: 250px;
+        row-gap: 20px;
+        padding: 0 30px;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 45px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 18px;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        width: auto;
+        height: 40px;
+        text-indent: 10px;
+        font-size: 14px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 200px;
+        width: 280px;
+        row-gap: 15px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 40%;
+        width: 250px;
+        row-gap: 20px;
+        padding: 0 30px;
+        bottom: 50%;
+        left: 80%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 45px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 18px;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        height: 40px;
+        text-indent: 10px;
+        font-size: 14px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 200px;
+        width: 280px;
+        row-gap: 15px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 40%;
+        width: 300px;
+        row-gap: 20px;
+        padding: 0 30px;
+        bottom: 50%;
+        left: 80%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 45px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 20px;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 25px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        height: 48px;
+        text-indent: 10px;
+        font-size: 15px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 250px;
+        width: 380px;
+        row-gap: 20px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 40%;
+        width: 300px;
+        row-gap: 20px;
+        padding: 0 30px;
+        bottom: 50%;
+        left: 80%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 45px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .google-map {
+        height: 680px;
+    }
+
+    .google-map-modal {
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+    }
+
+    .google-map-search-location-modal-title p {
+        font-size: 24px;
+    }
+
+    .google-map-modal-buttons {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0 30px;
+    }
+
+    .google-map-modal-buttons button {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .google-map-search-location-modal-title i {
+        font-size: 30px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .google-map-search-location-modal .google-map-search-location-modal-select select,
+    .google-map-search-location-modal .searchNameRight .google-map-search-location-modal-select select {
+        height: 48px;
+        text-indent: 10px;
+        font-size: 15px;
+    }
+
+    .google-map-search-location-modal {
+        justify-content: center;
+        height: 280px;
+        width: 435px;
+        row-gap: 20px;
+        padding: 0 30px;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input input {
+        height: 100%;
+    }
+
+    .closed-search-modal {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        padding: 0 10px;
+        font-size: 20px;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .searchNameRight {
+        position: absolute;
+        height: 50%;
+        width: 350px;
+        row-gap: 20px;
+        padding: 0 30px;
+        bottom: 50%;
+        left: 80%;
+        transform: translate(-50%, 50%);
+    }
+
+    .google-map-search-location-modal-input div {
+        height: 50px;
+    }
+
+    .input-group-append span {
+        padding: 0 10px;
+    }
+}

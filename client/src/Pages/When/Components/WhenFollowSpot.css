@@ -1,0 +1,603 @@
+.when-follow-spot {
+    display: flex;
+}
+
+.when-follow-spot-text-heading p, .when-follow-spot-header-text p,
+.when-follow-spot-text-title p, .when-follow-spot-text-describe p {
+    margin: 0;
+    padding: 0;
+}
+
+.when-follow-spot-image-background {
+    margin: 0;
+    padding: 0;
+}
+
+.when-follow-spot-gray-btn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    background: lightgray;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.when-follow-spot-gradient-btn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    background: #00D7E5;
+    background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 389px) {
+    .when-follow-spot {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        /*background-image: url("../../../assets/images/Homepage/phoneBackground.svg");*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: auto;*/
+        /*background-position-x: 100%;*/
+        row-gap: 50px;
+        margin: 20px;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 16px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        /*width: 40%;*/
+        row-gap: 15px;
+        text-align: right;
+        /*margin-left: 40px;*/
+    }
+
+    .when-follow-spot-text .hr {
+        width: 100%;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 22px;
+        width: 240px;
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-text-heading p {
+        font-size: 10px;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 40px;
+        width: 180px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .when-follow-spot {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        /*background-image: url("../../../assets/images/Homepage/phoneBackground.svg");*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: auto;*/
+        /*background-position-x: 100%;*/
+        row-gap: 50px;
+        margin: 20px;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 18px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        /*width: 40%;*/
+        row-gap: 24px;
+        text-align: right;
+        /*margin-left: 40px;*/
+    }
+
+    .when-follow-spot-text .hr {
+        width: 100%;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        font-size: 11px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-text-heading p {
+        font-size: 12px;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 40px;
+        width: 180px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .when-follow-spot {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        /*background-image: url("../../../assets/images/Homepage/phoneBackground.svg");*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: auto;*/
+        /*background-position-x: 100%;*/
+        row-gap: 50px;
+        margin: 20px;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 18px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        /*width: 40%;*/
+        row-gap: 24px;
+        text-align: right;
+        /*margin-left: 40px;*/
+    }
+
+    .when-follow-spot-text .hr {
+        width: 100%;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        font-size: 11px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-text-heading p {
+        font-size: 12px;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 40px;
+        width: 180px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .when-follow-spot {
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        background-image: url("../../../assets/images/Homepage/phoneBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
+        row-gap: 50px;
+        margin: 40px 0;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 20px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40%;
+        row-gap: 24px;
+        text-align: right;
+        margin-left: 40px;
+    }
+
+    .when-follow-spot-text .hr {
+        width: 320px;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 22px;
+        /*width: 320px;*/
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-text-heading p {
+        font-size: 12px;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 60px;
+        width: 180px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .when-follow-spot {
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        background-image: url("../../../assets/images/Homepage/phoneBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        row-gap: 50px;
+        margin: 40px 0;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 26px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40%;
+        row-gap: 24px;
+        text-align: right;
+        margin-left: 40px;
+    }
+
+    .when-follow-spot-text .hr {
+        width: 400px;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 26px;
+        width: 350px;
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-text-heading p {
+        font-size: 13px;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 60px;
+        width: 180px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .when-follow-spot {
+        display: flex;
+        height: 660px;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        background-image: url("../../../assets/images/Homepage/phoneBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        row-gap: 50px;
+        margin: 60px 0;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 30px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40%;
+        row-gap: 24px;
+        text-align: right;
+        margin-left: 80px;
+    }
+
+    .when-follow-spot-text .hr {
+        width: 527px;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 30px;
+        width: 427px;
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 15px;
+        width: 427px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 60px;
+        width: 226px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .when-follow-spot {
+        display: flex;
+        height: 760px;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-repeat: no-repeat;
+        background-image: url("../../../assets/images/Homepage/phoneBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        row-gap: 117px;
+        margin: 60px 0;
+    }
+
+    .when-follow-spot-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .when-follow-spot-header-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .when-follow-spot-header-text .when-follow-spot-text-head-title p {
+        font-size: 30px;
+    }
+
+    .when-follow-spot-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40%;
+        row-gap: 24px;
+        text-align: right;
+        margin-left: 80px;
+    }
+
+    .when-follow-spot-text .hr {
+        width: 527px;
+        height: 2px;
+        border: 1px solid #000000;
+    }
+
+    .when-follow-spot-text-title p {
+        font-size: 30px;
+        width: 427px;
+    }
+
+    .when-follow-spot-text-describe p {
+        font-size: 15px;
+        width: 427px;
+    }
+
+    .when-follow-spot-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .when-follow-spot-gradient-btn, .when-follow-spot-gray-btn {
+        height: 60px;
+        width: 226px;
+    }
+
+    .mobileViewPhoneBackground {
+        display: none;
+    }
+}

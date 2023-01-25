@@ -1,0 +1,135 @@
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width: 389px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 42px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 22px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 42px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 22px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 42px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 22px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 42px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 22px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 30px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 24px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 42px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 28px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .getInTouch {
+        row-gap: 16px;
+    }
+
+    .getInTouch-text {
+        margin: 52px;
+    }
+
+    .getInTouch-text-title {
+        font-size: 36px;
+    }
+
+    .getInTouch-text-describe {
+        font-size: 16px;
+    }
+}

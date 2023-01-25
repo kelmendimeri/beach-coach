@@ -1,0 +1,132 @@
+@media screen and (max-width: 389px) {
+    .coach-video {
+        width: 100%;
+        height: 150px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .coach-video {
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .coach-video {
+        width: 100%;
+        height: 280px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .coach-video {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .coach-video {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .coach-video {
+        width: 100%;
+        height: 450px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .coach-video {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    video[poster] {
+        width: 100%;
+        height: 100%;
+    }
+}

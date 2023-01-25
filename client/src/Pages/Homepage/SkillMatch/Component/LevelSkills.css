@@ -1,0 +1,272 @@
+.level-skills {
+    display: flex;
+}
+
+.level-skills-row div p {
+    margin: 0;
+    padding: 0;
+}
+
+.level-skills-row div {
+    margin: 0;
+    padding: 0;
+}
+
+.level-skills-row div .level-skills-number {
+    background: #00D7E5;
+    color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins-Medium, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.skillsMatch-text-heading p, .level-skills-describe{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 389px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        row-gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 200px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 18px;
+        width: 40px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 8px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        row-gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 280px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 22px;
+        width: 40px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        row-gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 280px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 22px;
+        width: 40px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        column-gap: 24px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 280px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 22px;
+        width: 40px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        column-gap: 24px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 350px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 26px;
+        width: 40px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        column-gap: 24px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 500px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 35px;
+        width: 60px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .level-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    .level-skills-row {
+        display: flex;
+        column-gap: 24px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .level-skills-row div {
+        display: flex;
+        flex-direction: row;
+        row-gap: 24px;
+        border-bottom: 2px solid #00D7E5;
+        width: 500px;
+        align-items: center;
+    }
+
+    .level-skills-row div .level-skills-number {
+        font-size: 35px;
+        width: 60px;
+    }
+
+    .level-skills-row div .level-skills-describe {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

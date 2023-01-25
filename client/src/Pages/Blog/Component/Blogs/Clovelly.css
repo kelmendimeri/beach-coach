@@ -1,0 +1,817 @@
+.clovelly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+* > p {
+    padding: 0;
+    margin: 0;
+}
+
+.clovelly-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.clovelly-title p {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.clovelly-story-hero-img {
+    display: flex;
+    width: 100%;
+}
+
+.clovelly-coordinates {
+    display: flex;
+}
+
+.clovelly-coordinates p {
+    margin: 0;
+    padding: 0;
+}
+
+.clovelly-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.clovelly-text-content-paragraph p {
+    margin: 0;
+    padding: 0;
+}
+
+.clovelly-text-content-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clovelly-text-content-subtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.clovelly-text-content-subtext-describe, .clovelly-text-content-subtext-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.clovelly-text-content-subtext-subtitle p {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clovelly-text-content-subtext-describe p {
+    margin: 0;
+    padding: 0;
+}
+
+.clovelly-text-content-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.clovelly-text-content-paragraph-list ul {
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.clovelly-text-content-img figure {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clovelly-text-content-img figure figcaption {
+    text-align: center;
+}
+
+.clovelly-text-content-links {
+    width: 100%;
+}
+
+@media screen and (max-width: 389px) {
+    .clovelly {
+        margin: 20px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .clovelly-header {
+        row-gap: 10px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 12px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 10px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .clovelly {
+        margin: 30px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .clovelly-header {
+        row-gap: 10px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 12px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 16px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 12px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .clovelly {
+        margin: 30px;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .clovelly-header {
+        row-gap: 10px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 16px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 16px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 16px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .clovelly {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .clovelly-header {
+        row-gap: 20px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 14px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .clovelly {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .clovelly-header {
+        row-gap: 20px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .clovelly {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .clovelly-header {
+        row-gap: 20px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 24px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .clovelly {
+        margin: 40px 80px;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .clovelly-header {
+        row-gap: 20px;
+    }
+
+    .clovelly-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .clovelly-title p {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .clovelly-story-hero-img img {
+        width: 100%;
+    }
+
+    .clovelly-coordinates {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clovelly-coordinates p {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-paragraph-list ul li {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-paragraph {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clovelly-text-content-paragraph p {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtext {
+        row-gap: 5px;
+    }
+
+    .clovelly-text-content-subtext-subtitle p {
+        font-size: 24px;
+    }
+
+    .clovelly-text-content-subtext-describe p {
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-subtext-describe-table-and-img {
+        row-gap: 40px;
+    }
+
+    .clovelly-text-content-img figure {
+        row-gap: 10px;
+    }
+
+    .clovelly-text-content-img figure figcaption {
+        font-size: 18px;
+    }
+
+    .clovelly-text-content-subtext-describe-img img {
+        width: 100%;
+    }
+
+    .clovelly-text-content-subtitle p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .clovelly-text-content-links {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

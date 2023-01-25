@@ -1,0 +1,369 @@
+.subscribe {
+    display: flex;
+    background-color: #181A1D;
+    color: #ffffff;
+}
+
+.subscribe-controls input[type="submit"] {
+    background-color: #181A1D;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    margin: 0;
+}
+
+.subscribe-controls {
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.subscribe .subscribe-text-title p, .subscribe-text-describe p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.subscribe-text-describe p {
+    color: #BABFC2;
+}
+
+@media screen and (max-width: 389px) {
+    .subscribe {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        height: 240px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .subscribe-text-describe {
+        width: 240px;
+        font-size: 10px;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 11px;
+        height: 35px;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 11px;
+        /*width: 140px;*/
+        height: 35px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .subscribe {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 15px;
+        height: 150px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 11px;
+    }
+
+    .subscribe-text-describe {
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        align-items: center;
+        height: 35px;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 11px;
+        height: 100%;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 11px;
+        width: 140px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .subscribe {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 24px;
+        height: 165px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        row-gap: 10px;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .subscribe-text-describe {
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        align-items: center;
+        height: 38px;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 11px;
+        height: 100%;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 11px;
+        width: 160px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .subscribe {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        height: 165px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 10px;
+        width: 40%;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .subscribe-text-describe {
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        align-items: center;
+        height: 40px;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 11px;
+        height: 100%;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 11px;
+        width: 160px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .subscribe {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        height: 165px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 12px;
+        width: 40%;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .subscribe-text-describe {
+        width: 380px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        align-items: center;
+        height: 40px;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 12px;
+        height: 100%;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 12px;
+        width: 180px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .subscribe {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        height: 165px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 12px;
+        width: 35%;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .subscribe-text-describe {
+        width: 450px;
+        font-size: 13px;
+        word-wrap: break-word;
+        width: 100%;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: row;
+        column-gap: 22px;
+        align-items: center;
+        height: 40px;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 13px;
+        height: 100%;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 13px;
+        width: 212px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .subscribe {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        height: 165px;
+    }
+
+    .subscribe-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 12px;
+        width: 30%;
+    }
+
+    .subscribe-text-title {
+        font-weight: 600;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .subscribe-text-describe {
+        width: 450px;
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .subscribe-controls {
+        display: flex;
+        flex-direction: row;
+        column-gap: 22px;
+        height: 45px;
+        align-items: center;
+    }
+
+    .subscribe-controls input[type="submit"] {
+        font-size: 13px;
+        height: 100%;
+    }
+
+    .subscribe-controls input[type="email"] {
+        font-size: 13px;
+        width: 212px;
+        height: 100%;
+    }
+}

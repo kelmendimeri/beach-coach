@@ -1,0 +1,387 @@
+.when-banner {
+    display: flex;
+}
+
+.when-banner-text-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.when-banner-text-describe {
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.gradient-btn-search-beaches {
+    border: 0;
+    background: #00D7E5;
+    background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 389px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin: 30px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 120px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 10px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 14px;
+        width: 220px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        font-size: 9px;
+        column-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 35px;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin: 30px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 150px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 11px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        font-size: 9px;
+        column-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 35px;
+    }
+
+    .when-banner-img {
+        width: 100%;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+        margin: 30px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 150px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 11px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 18px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        column-gap: 12px;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 40px;
+    }
+
+    .when-banner-img {
+        width: 100%;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 250px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+        margin: 30px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 160px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 12px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 22px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        column-gap: 12px;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 40px;
+    }
+
+    .when-banner-img {
+        width: 100%;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+        margin: 30px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 170px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 13px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 24px;
+        width: 450px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        column-gap: 12px;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 45px;
+    }
+
+    .when-banner-img {
+        width: 100%;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+        margin: 40px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 190px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 14px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 32px;
+        width: 550px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        column-gap: 12px;
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 55px;
+    }
+
+    .when-banner-img {
+        width: 100%;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .when-banner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+
+    .when-banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+        margin: 40px 0;
+    }
+
+    .when-banner-text .hr {
+        height: 1px;
+        width: 200px;
+        background: #00D7E5;
+        background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);
+    }
+
+    .when-banner-text-title {
+        font-size: 14px;
+    }
+
+    .when-banner-text-describe {
+        font-size: 36px;
+        width: 600px;
+        text-align: center;
+    }
+
+    .gradient-btn-search-beaches {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        column-gap: 12px;
+        align-items: center;
+        justify-content: center;
+        width: 226px;
+        height: 60px;
+    }
+
+    .when-banner-img {
+        width: 100%;
+    }
+
+    .when-banner-img video {
+        width: 100%;
+        height: 600px;
+    }
+}

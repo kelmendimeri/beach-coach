@@ -1,0 +1,622 @@
+.snorkelBestBeaches {
+    display: flex;
+    font-weight: 400;
+}
+
+.snorkelBestBeaches-text-heading p {
+    font-weight: 700;
+    font-family: Poppins-Medium, sans-serif;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 389px) {
+    .snorkelBestBeaches {
+        flex-direction: column;
+        margin: 12px 0;
+        padding: 0;
+        row-gap: 24px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 200px;
+        width: 100px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+        width: 240px;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-title p {
+        font-size: 18px;
+        width: 240px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 14px;
+        width: 240px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 240px;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 28px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        font-size: 12px;
+        align-items: center;
+        margin: 0;
+        padding: 10px 10px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 426px) {
+    .snorkelBestBeaches {
+        flex-direction: column;
+        margin: 24px 20px;
+        padding: 0;
+        row-gap: 48px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 300px;
+        width: 150px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 14px;
+    }
+
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
+        width: 280px;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-title p {
+        font-size: 20px;
+        width: 280px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 14px;
+        width: 280px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 280px;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 28px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        align-items: center;
+        font-size: 12px;
+        margin: 0;
+        padding: 10px 10px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 767px) {
+    .snorkelBestBeaches {
+        flex-direction: column;
+        margin: 24px 20px;
+        padding: 0;
+        row-gap: 48px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 300px;
+        width: 150px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-title p {
+        font-size: 26px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 14px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 350px;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        align-items: center;
+        margin: 0;
+        padding: 10px 15px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .snorkelBestBeaches {
+        flex-direction: row;
+        margin: 48px 20px;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 400px;
+        width: 180px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        width: 55%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .snorkelBestBeaches-text-title p {
+        font-size: 26px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 14px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 350px;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        align-items: center;
+        margin: 0;
+        padding: 10px 15px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .snorkelBestBeaches {
+        flex-direction: row;
+        margin: 48px 60px;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 501px;
+        width: 280px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        width: 55%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 12px;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .snorkelBestBeaches-text-title p {
+        font-size: 26px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 14px;
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 350px;
+        row-gap: 10px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        align-items: center;
+        margin: 0;
+        padding: 10px 15px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .snorkelBestBeaches {
+        flex-direction: row;
+        margin: 48px 60px;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 571px;
+        width: 280px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        width: 55%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 12px;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .snorkelBestBeaches-text-title p {
+        font-size: 30px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 15px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 12px;
+        width: 400px;
+        row-gap: 12px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 37px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        align-items: center;
+        margin: 0;
+        padding: 10px 25px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .snorkelBestBeaches {
+        flex-direction: row;
+        margin: 48px 80px;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45%;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-image img {
+        height: 571px;
+        width: 280px;
+    }
+
+    .snorkelBestBeaches .snorkelBestBeaches-text {
+        width: 55%;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 12px;
+    }
+
+    .snorkelBestBeaches-text-heading p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .snorkelBestBeaches-text .hr {
+        backgroundColor: black;
+        border: 1px solid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .snorkelBestBeaches-text-title p {
+        font-size: 30px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-text-describe p {
+        font-size: 15px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .snorkelBestBeaches-options {
+        display: inline-flex;
+        flex-wrap: wrap;
+        column-gap: 12px;
+        width: 400px;
+        row-gap: 12px;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"] {
+        display: none;
+    }
+
+    .snorkelBestBeaches-options label {
+        height: 37px;
+        display: flex;
+        align-items: center;
+        border: 1px solid;
+        align-items: center;
+        margin: 0;
+        padding: 10px 25px;
+        justify-content: center;
+        background: none;
+    }
+
+    .snorkelBestBeaches-options input[type="radio"]:checked + label {
+        background: #000000;
+        color: #ffffff;
+    }
+}
