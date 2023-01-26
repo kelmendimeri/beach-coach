@@ -8,22 +8,15 @@ const frontendFile = path.join(__dirname, '../', 'client', 'build');
 
 router.use(express.static(frontendFile));
 
-router.get("/hello", async (req, res) => {
-    return res.status(200).json("Mail send successfully wait for our response.");
-})
-
 router.post("/send-form", async (req, res) => {
     const body = req.body;
     const transport = await nodemailer.createTransport({
         // pool: true,
         host: "mail.beachcoach.app",
         port: 465,
-        // secure: false,
         auth: {
-            user: "kelmendimeri@gmail.com",
-            // user: "louise.kelly@beachcoach.app",
-            pass: "fircxkewpifvosnn"
-            // pass: "fircxkewpifvosnn"
+            user: "louise.kelly@beachcoach.app",
+            pass: "Tuesday123!"
         }
     });
 
@@ -44,7 +37,7 @@ router.post("/send-form", async (req, res) => {
 
 })
 
-router.post("/waiting-list", async (req, res) => {
+router.post("/waiting-list",async (req, res) => {
     const value = req.body.email;
     let sql = `INSERT INTO waitinglist (email) VALUES ('${value}')`;
 

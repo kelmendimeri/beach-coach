@@ -13,7 +13,7 @@ const GordonBay = () => {
         <div id={"gordon-bay"} className={"gordon-bay"}>
             <div className={"gordon-bay-header"}>
                 <div className={"gordon-bay-title"}>
-                    <p>BEACH COACH FEATURED SNORKEL SPOT</p>
+                    <p>Shelly Beach, one of Sydney’s top snorkelling destinations</p>
                 </div>
                 <div className={"gordon-bay-story-hero-img"}>
                     <img src={gordonsBaySwimming} alt={"gordon-bay-snorkel-imgs"}/>

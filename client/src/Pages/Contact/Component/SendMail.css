@@ -17,6 +17,16 @@
     border-left: 0;
 }
 
+.successfully-mail-sent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.successfully-mail-sent i.bi.bi-check-circle-fill {
+    color: green;
+}
+
 @media screen and (max-width: 389px) {
     input {
         width: 375px;
@@ -67,6 +77,19 @@
         text-transform: uppercase;
         padding: 0;
     }
+
+    .successfully-mail-sent {
+        column-gap: 5px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 12px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (min-width: 390px) and (max-width: 426px) {
@@ -83,16 +106,20 @@
         margin: 60px auto;
         row-gap: 25px;
     }
+
     span.input-group-text {
         height: 32px;
     }
+
     .send-mail .input-group {
         display: flex;
         width: 320px;
     }
-    span.input-group-text.span-text-area{
+
+    span.input-group-text.span-text-area {
         height: 90px;
     }
+
     textarea {
         height: 90px;
     }
@@ -112,6 +139,18 @@
         font-size: 14px;
         text-transform: uppercase;
         padding: 0;
+    }
+
+    .successfully-mail-sent {
+        column-gap: 5px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 15px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 15px;
     }
 }
 
@@ -129,16 +168,20 @@
         margin: 60px auto;
         row-gap: 25px;
     }
+
     span.input-group-text {
         height: 32px;
     }
+
     .send-mail .input-group {
         display: flex;
         width: 320px;
     }
-    span.input-group-text.span-text-area{
+
+    span.input-group-text.span-text-area {
         height: 90px;
     }
+
     textarea {
         height: 90px;
     }
@@ -158,6 +201,18 @@
         font-size: 14px;
         text-transform: uppercase;
         padding: 0;
+    }
+
+    .successfully-mail-sent {
+        column-gap: 5px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 15px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 16px;
     }
 }
 
@@ -185,9 +240,10 @@
         height: 32px;
     }
 
-    span.input-group-text.span-text-area{
+    span.input-group-text.span-text-area {
         height: 100px;
     }
+
     textarea {
         height: 100px;
     }
@@ -206,6 +262,18 @@
         margin: 0;
         text-transform: uppercase;
         padding: 0;
+    }
+
+    .successfully-mail-sent {
+        column-gap: 5px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 15px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 16px;
     }
 }
 
@@ -247,6 +315,18 @@
         margin: 0;
         text-transform: uppercase;
         padding: 0;
+    }
+
+    .successfully-mail-sent {
+        column-gap: 10px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 20px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 18px;
     }
 }
 
@@ -290,6 +370,18 @@
         text-transform: uppercase;
         padding: 0;
     }
+
+    .successfully-mail-sent {
+        column-gap: 10px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 20px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -330,5 +422,17 @@
         margin: 0;
         text-transform: uppercase;
         padding: 0;
+    }
+
+    .successfully-mail-sent {
+        column-gap: 10px;
+    }
+
+    .successfully-mail-sent i {
+        font-size: 25px;
+    }
+
+    .successfully-mail-sent p {
+        font-size: 20px;
     }
 }

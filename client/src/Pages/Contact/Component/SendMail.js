@@ -1,24 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './SendMail.css';
-import GradientButton from "../../../Components/GradientButton";
+import GradientButton from '../../../Components/GradientButton';
 import {useForm} from 'react-hook-form';
-import axios from "axios";
+import axios from 'axios';
 
 const SendMail = () => {
+    const [isMailSent, setIsMailSent] = useState(false);
+
     const {register, handleSubmit, formState: {errors}, reset} = useForm();
+
     const onSubmit = data => {
-        axios.post('http://localhost:3000/send-form', {
+        axios.post('https://beachcoach.app/send-form', {
             email: data.Email,
             fullName: data.Fullname,
             message: data.Message,
             phoneNumber: data.PhoneNumber
-        }).then(()=>{reset(data)});
-        console.log(data)
-        reset(data);
+        }).then((res) => {
+            setIsMailSent(true)
+        });
+        reset();
     };
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className={"send-mail"} id={"send-mail"}>
+        <form onSubmit={handleSubmit(onSubmit)} className={"send-mail"}
+              id={"send-mail"}>
             <div className={"send-mail-title"}><p>Send us a message</p></div>
             <div className="input-group">
             <span className="input-group-text bg-transparent">
@@ -56,6 +61,9 @@ const SendMail = () => {
             </div>
             <GradientButton className={"gradient-button-send-mail form-control"} text={"Send"}
                             icon={<i className={"bi bi-arrow-right"}></i>} type={"submit"}/>
+            {isMailSent === true ?
+                <div className={"successfully-mail-sent"}><i className={"bi bi-check-circle-fill"}></i><p>Mail was sent
+                    successfully.</p></div> : null}
         </form>
     );
 };

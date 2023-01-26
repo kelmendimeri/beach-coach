@@ -5,14 +5,14 @@ import {HashLink} from "react-router-hash-link";
 import julianRockImg3 from "../../../assets/images/Blog/julianRockImg3.png";
 import julianRocksImg2 from "../../../assets/images/Blog/julianRocksImg2.png";
 import creatorStoryHeroImg from "../../../assets/images/Blog/creatorStoryHeroImg.png";
-import shellyBeachSnorkerImg from "../../../assets/images/Blog/shellyBeachSnorkerImg.png";
+import shellyBeachImg2 from "../../../assets/images/Blog/shellyBeachImg2.png";
 import shellyBeachImg4 from "../../../assets/images/Blog/shellyBeachImg4.png";
 import shellyBeachBlueGroper from "../../../assets/images/Blog/shellyBeachBlueGroper.png";
 import gordonsBaySwimming from "../../../assets/images/Blog/gordonsBaySwimming.png";
 import gordonsBayImg2 from "../../../assets/images/Blog/gordonsBayImg2.png";
 import gordonsBayGilesBathsImg2 from "../../../assets/images/Blog/gordonsBayGilesBathsImg2.png";
 import clovellyStoryHeroImg from "../../../assets/images/Blog/clovellyStoryHeroImg.png";
-import clovlleyFishImg from "../../../assets/images/Blog/clovlleyFishImg.png";
+import clovlleyBeachImg2 from "../../../assets/images/Blog/clovlleyBeachImg2.png";
 import clovlleyBeachImg from "../../../assets/images/Blog/clovlleyBeachImg.png";
 
 const BlogCreatorStory = () => {
@@ -58,11 +58,11 @@ const BlogCreatorStory = () => {
                                 <HashLink to={"/blog/shellybeach"} className={"blog-example-hashlink"}>
                                     <div className={"blog-pictures"}>
                                         <div className={"blog-pictures-small"}>
-                                            <img src={shellyBeachSnorkerImg} alt={"julian-rock-img-3"}/>
-                                            <img src={shellyBeachImg4} alt={"julian-rock-img-2"}/>
+                                            <img src={shellyBeachImg2} alt={"julian-rock-img-3"}/>
+                                            <img src={shellyBeachBlueGroper} alt={"creator-story-hero-img"}/>
                                         </div>
                                         <div className={"blog-pictures-big"}>
-                                            <img src={shellyBeachBlueGroper} alt={"creator-story-hero-img"}/>
+                                            <img src={shellyBeachImg4} alt={"julian-rock-img-2"}/>
                                         </div>
                                     </div>
                                     <div className={"blog-title"}>Shelly Beach</div>
@@ -74,10 +74,10 @@ const BlogCreatorStory = () => {
                                     <div className={"blog-pictures"}>
                                         <div className={"blog-pictures-small"}>
                                             <img src={gordonsBayImg2} alt={"julian-rock-img-3"}/>
-                                            <img src={gordonsBaySwimming} alt={"julian-rock-img-2"}/>
+                                            <img src={gordonsBayGilesBathsImg2} alt={"creator-story-hero-img"}/>
                                         </div>
                                         <div className={"blog-pictures-big"}>
-                                            <img src={gordonsBayGilesBathsImg2} alt={"creator-story-hero-img"}/>
+                                            <img src={gordonsBaySwimming} alt={"julian-rock-img-2"}/>
                                         </div>
                                     </div>
                                     <div className={"blog-title"}>Gordons Bay</div>
@@ -87,11 +87,11 @@ const BlogCreatorStory = () => {
                                 <HashLink to={"/blog/clovelly"} className={"blog-example-hashlink"}>
                                     <div className={"blog-pictures"}>
                                         <div className={"blog-pictures-small"}>
-                                            <img src={clovellyStoryHeroImg} alt={"julian-rock-img-3"}/>
-                                            <img src={clovlleyFishImg} alt={"julian-rock-img-2"}/>
+                                            <img src={clovlleyBeachImg} alt={"clovelly-beach-img"}/>
+                                            <img src={clovlleyBeachImg2} alt={"clovelly-beach-img-2"}/>
                                         </div>
                                         <div className={"blog-pictures-big"}>
-                                            <img src={clovlleyBeachImg} alt={"creator-story-hero-img"}/>
+                                            <img src={clovellyStoryHeroImg} alt={"clovelly-beach-img-3"}/>
                                         </div>
                                     </div>
                                     <div className={"blog-title"}>Clovelly Bay</div>

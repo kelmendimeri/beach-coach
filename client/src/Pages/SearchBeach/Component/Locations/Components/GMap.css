@@ -67,7 +67,7 @@
 .google-map-search-location-modal .google-map-search-location-modal-select select {
     background: #000000;
     color: #ffffff;
-    width: auto;
+    width: 50%;
     border: 0;
 }
 

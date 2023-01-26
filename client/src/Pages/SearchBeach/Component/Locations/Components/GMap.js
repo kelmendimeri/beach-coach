@@ -13,12 +13,12 @@ const GMap = () => {
     const [centerMap, setCenterMap] = useState({lat: -30.88200609215634, lng: 140.0344279878923});
     const [filteredResult] = useState([]);
     const [circleCenter, setCircleCenter] = useState({lat: -30.88200609215634, lng: 140.0344279878923});
-    const [nearestBeach] = useState([]);
     const [showCircle, setShowCircle] = useState(false);
+    const [nearestBeach] = useState([]);
     const [searchByName, setSearchByName] = useState(false);
     const [searchNameRight, setSearchNameRight] = useState(false);
     const [searchLocationModal, setSearchLocationModal] = useState(false);
-    const [myPos, setMyPos] = useState({lat: 0, lng: 0});
+    const [myPos, setMyPos] = useState({lat: -37.813999, lng: 144.963318});
 
     const {isLoaded} = useLoadScript({
         googleMapsApiKey: 'AIzaSyCKUFsyljd91YonyWZiaF4f92R7pcvWUkA'
@@ -27,9 +27,6 @@ const GMap = () => {
     useEffect(() => {
         (getLocationApproval === null) ? setOpenModalGoogleMap(true) : setOpenModalGoogleMap(false);
         (getLocationApproval === null) ? setSearchLocationModal(false) : setSearchLocationModal(true);
-        navigator.geolocation.getCurrentPosition(function (position) {
-            setMyPos({lat: position.coords.latitude, lng: position.coords.longitude});
-        });
     }, [getLocationApproval, locationData])
 
     const loadHandler = (map) => {
@@ -46,12 +43,14 @@ const GMap = () => {
         zIndex: 1,
     };
 
-
     const near5Km = () => {
+        navigator.geolocation.getCurrentPosition(function (position) {
+            setMyPos({lat: position.coords.latitude, lng: position.coords.longitude});
+        });
         nearestBeach.length = 0;
         // IP address - Melbourn: 128.250.204.118; Sydney: 49.189.126.141
         // lat: -55 -> - 10   lng: 159.1 -> 73 Austria edges geolocaiton
-        if ((myPos.lat > -55 && myPos.lat < -10) && (myPos.lng < 159.1 && myPos.lng < 73)) {
+        if ((myPos.lat > -55 && myPos.lat < -10) && (myPos.lng < 159.1 && myPos.lng > 73)) {
             setShowCircle(true);
 
             setCircleCenter({
@@ -64,29 +63,26 @@ const GMap = () => {
                 lng: myPos.lng
             });
 
-            Object.values(locationData).filter((values) => {
-                    let latituteUp = myPos.lat + 0.1;
-                    let latituteDown = myPos.lat - 0.1;
-                    let longitudeUp = myPos.lng + 0.1;
-                    let longitudeDown = myPos.lng - 0.1;
+            let latituteUp = myPos.lat + 0.1;
+            let latituteDown = myPos.lat - 0.1;
+            let longitudeRight = myPos.lng + 0.1;
+            let longitudeLeft = myPos.lng - 0.1;
 
+            Object.values(locationData).filter((values) => {
                     if ((latituteUp >= values['LATITUDE'] && latituteDown <= values['LATITUDE']) &&
-                        (longitudeUp >= values['LONGITUDE'] && longitudeDown <= values['LONGITUDE'])) {
+                        (longitudeRight >= values['LONGITUDE'] && longitudeLeft <= values['LONGITUDE'])) {
                         nearestBeach.push(values);
                     }
                     return null;
                 }
             );
-
             nearestBeach.length > 0 ? mapRef.current.zoom = 9 : mapRef.current.zoom = 4.3;
-
         } else {
             setShowCircle(false);
             setMapZoom(4.3);
             sessionStorage.getItem('location-approved') !== true && alert("There no beches.");
         }
     }
-
 
     const nameSearching = (value) => {
         filteredResult.length = 0;
@@ -97,8 +93,9 @@ const GMap = () => {
     };
 
     const onClickMarkerZoom = (latitude, longitude) => {
-        mapRef.current.zoom = 17;
+        mapRef.current.setZoom(17)
         setCenterMap({lat: latitude, lng: longitude});
+        return null;
     }
 
     return (
@@ -123,7 +120,6 @@ const GMap = () => {
                             options={circleOptions}
                         />}
                     {searchByName ?
-
                         (filteredResult.length > 0 ? (
                             filteredResult.map((marker, index) => {
                                 return <Marker
@@ -146,9 +142,9 @@ const GMap = () => {
                                             fontWeight: '600',
                                             text: nearestBeach.length > 0 ? `${marker.NAME}` : null
                                         }}
-                                        onClick={
+                                        onClick={() => {
                                             onClickMarkerZoom(marker['LATITUDE'], marker['LONGITUDE'])
-                                        }
+                                        }}
                                         icon={"https://maps.google.com/mapfiles/ms/icons/blue.png"}
                                         position={{lat: marker['LATITUDE'], lng: marker['LONGITUDE']}}
                                     />
