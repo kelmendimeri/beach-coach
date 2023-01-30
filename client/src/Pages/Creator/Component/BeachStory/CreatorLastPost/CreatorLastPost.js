@@ -22,7 +22,9 @@ const CreatorLastPost = () => {
             </div>
 
             <div className={"creator-last-post-posts"}>
-                <HashLink to={"/blog/julianrock"} onClick={()=>{window.scrollTo(0,0)}}>
+                <HashLink to={"/blog/julianrock"} onClick={() => {
+                    window.scrollTo(0, 0)
+                }}>
                     <div className={"creator-last-post-post"}>
                         <div className={"creator-last-post-img"}>
                             <div className={"creator-last-post-img-row"}>
@@ -37,7 +39,9 @@ const CreatorLastPost = () => {
                         <div className={"creator-last-post-post-describe"}><p>Learn to snorkel at Clovelly</p></div>
                     </div>
                 </HashLink>
-                <HashLink to={"/blog/shellybeach"} onClick={()=>{window.scrollTo(0,0)}}>
+                <HashLink to={"/blog/shellybeach"} onClick={() => {
+                    window.scrollTo(0, 0)
+                }}>
                     <div className={"creator-last-post-post"}>
                         <div className={"creator-last-post-img"}>
                             <div className={"creator-last-post-img-row"}>
@@ -54,7 +58,9 @@ const CreatorLastPost = () => {
                             destinations</p></div>
                     </div>
                 </HashLink>
-                <HashLink to={"/blog/gordonbay"} onClick={()=>{window.scrollTo(0,0)}}>
+                <HashLink to={"/blog/gordonbay"} onClick={() => {
+                    window.scrollTo(0, 0)
+                }}>
                     <div className={"creator-last-post-post"}>
                         <div className={"creator-last-post-img"}>
                             <div className={"creator-last-post-img-row"}>
@@ -83,8 +89,7 @@ const CreatorLastPost = () => {
                                  alt={"creator-offshore-img3"}/>
                         </div>
                         <div className={"creator-last-post-post-describe"}><p>Julian Rocks snorkelling, where temperate
-                            and
-                            tropical seas meet.</p>
+                            and tropical seas meet</p>
                         </div>
                     </div>
                 </HashLink>

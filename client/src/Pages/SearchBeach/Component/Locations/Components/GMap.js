@@ -6,10 +6,10 @@ import $ from "jquery";
 
 const GMap = () => {
     const mapRef = useRef();
-    const [getLocationApproval] = useState(sessionStorage.getItem('location-approved'))
+    const [getLocationApproval] = useState(sessionStorage.getItem('location-approved'));
     const [openModalGoogleMap, setOpenModalGoogleMap] = useState(false);
     const [locationData] = useState(data);
-    const [mapZoom, setMapZoom] = useState(4.3)
+    const [mapZoom, setMapZoom] = useState(4.3);
     const [centerMap, setCenterMap] = useState({lat: -30.88200609215634, lng: 140.0344279878923});
     const [filteredResult] = useState([]);
     const [circleCenter, setCircleCenter] = useState({lat: -30.88200609215634, lng: 140.0344279878923});
@@ -18,7 +18,7 @@ const GMap = () => {
     const [searchByName, setSearchByName] = useState(false);
     const [searchNameRight, setSearchNameRight] = useState(false);
     const [searchLocationModal, setSearchLocationModal] = useState(false);
-    const [myPos, setMyPos] = useState({lat: -37.813999, lng: 144.963318});
+    const [myPos, setMyPos] = useState({lat: -30.88200609215634, lng: 140.0344279878923});
 
     const {isLoaded} = useLoadScript({
         googleMapsApiKey: 'AIzaSyCKUFsyljd91YonyWZiaF4f92R7pcvWUkA'
@@ -27,7 +27,14 @@ const GMap = () => {
     useEffect(() => {
         (getLocationApproval === null) ? setOpenModalGoogleMap(true) : setOpenModalGoogleMap(false);
         (getLocationApproval === null) ? setSearchLocationModal(false) : setSearchLocationModal(true);
-    }, [getLocationApproval, locationData])
+    }, [getLocationApproval, locationData]);
+
+    useEffect(() => {
+        if (sessionStorage.getItem('location-approved') === "true") {
+            getGeoLocation();
+            setCircleCenter(myPos);
+        }
+    }, [myPos.lat, myPos.lng]);
 
     const loadHandler = (map) => {
         mapRef.current = map;
@@ -43,10 +50,19 @@ const GMap = () => {
         zIndex: 1,
     };
 
-    const near5Km = () => {
+    const getGeoLocation = () => {
         navigator.geolocation.getCurrentPosition(function (position) {
             setMyPos({lat: position.coords.latitude, lng: position.coords.longitude});
+            setShowCircle(true);
         });
+
+        return null;
+    };
+
+    const near5Km = () => {
+        setCenterMap(circleCenter);
+        getGeoLocation();
+
         nearestBeach.length = 0;
         // IP address - Melbourn: 128.250.204.118; Sydney: 49.189.126.141
         // lat: -55 -> - 10   lng: 159.1 -> 73 Austria edges geolocaiton
@@ -62,7 +78,6 @@ const GMap = () => {
                 lat: myPos.lat,
                 lng: myPos.lng
             });
-
             let latituteUp = myPos.lat + 0.1;
             let latituteDown = myPos.lat - 0.1;
             let longitudeRight = myPos.lng + 0.1;
@@ -82,7 +97,7 @@ const GMap = () => {
             setMapZoom(4.3);
             sessionStorage.getItem('location-approved') !== true && alert("There no beches.");
         }
-    }
+    };
 
     const nameSearching = (value) => {
         filteredResult.length = 0;
@@ -93,7 +108,7 @@ const GMap = () => {
     };
 
     const onClickMarkerZoom = (latitude, longitude) => {
-        mapRef.current.setZoom(17)
+        mapRef.current.setZoom(17);
         setCenterMap({lat: latitude, lng: longitude});
         return null;
     }
@@ -191,7 +206,7 @@ const GMap = () => {
                         <div className={"google-map-search-location-modal-select"}>
                             <select onChange={(event) => {
                                 if (event.target.value === "near") {
-                                    setCenterMap(circleCenter)
+                                    setCenterMap(circleCenter);
                                     setSearchLocationModal(false);
                                     setSearchNameRight(false);
                                     setSearchByName(false);
@@ -200,8 +215,9 @@ const GMap = () => {
                                 } else if (event.target.value === 'name') {
                                     mapRef.current.zoom = 4.3
                                     filteredResult.length = 0;
-                                    setShowCircle(false)
+                                    setShowCircle(false);
                                     setSearchByName(true);
+                                    setSearchLocationModal(false);
                                     setSearchNameRight(true);
                                     $('.google-map-search-location-modal').removeClass('');
                                 } else {
@@ -251,8 +267,6 @@ const GMap = () => {
                         <i className="bi bi-search"></i>
                     </div>
                 </GoogleMap>}
-
-
         </div>
     );
 };
