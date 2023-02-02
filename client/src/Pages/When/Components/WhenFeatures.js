@@ -9,9 +9,9 @@ const WhenFeatures = () => {
                 <div className={"when-feature-container-text"}>
                     <p className={"when-feature-container-text-title"}>Track peak snorkelling conditions for
                         over 2500 locations.</p>
-                    <p className={"when-feature-container-text-describe"}>Add new spots to track. Track up to 5
-                        days. Beach Coach factors in beach facing direction to the only automated snorkelling condition
-                        report.
+                    <p className={"when-feature-container-text-describe"}>Add new spots to track. Track up to 5 days in
+                        advance. Beach Coach factors in the direction beaches face, to give to the world's first
+                        automated snorkelling condition report.
                     </p>
                 </div>
                 <div className={"when-feature-container-card-container"}>

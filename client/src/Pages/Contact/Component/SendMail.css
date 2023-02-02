@@ -27,6 +27,10 @@
     color: green;
 }
 
+.gradient-button-send-mail {
+    color: black;
+}
+
 @media screen and (max-width: 389px) {
     input {
         width: 375px;

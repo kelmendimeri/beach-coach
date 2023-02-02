@@ -1,5 +1,10 @@
 .search-location-pricing {
     display: flex;
+    color: black;
+}
+
+.search-location-pricing-option-body a {
+    color: black;
 }
 
 @media screen and (max-width: 389px) {

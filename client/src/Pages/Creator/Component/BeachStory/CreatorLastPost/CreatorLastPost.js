@@ -22,7 +22,7 @@ const CreatorLastPost = () => {
             </div>
 
             <div className={"creator-last-post-posts"}>
-                <HashLink to={"/blog/julianrock"} onClick={() => {
+                <HashLink to={"/blog/clovelly"} onClick={() => {
                     window.scrollTo(0, 0)
                 }}>
                     <div className={"creator-last-post-post"}>
@@ -36,7 +36,8 @@ const CreatorLastPost = () => {
                             <img className={"creator-last-post-img-row-main-img"} src={creatorClovellyImg3}
                                  alt={"creator-clovelly-img3"}/>
                         </div>
-                        <div className={"creator-last-post-post-describe"}><p>Learn to snorkel at Clovelly</p></div>
+                        <div className={"creator-last-post-post-describe"}><p>Learn to snorkel at Clovelly <span
+                            className={"bi bi-arrow-up-right"}></span></p></div>
                     </div>
                 </HashLink>
                 <HashLink to={"/blog/shellybeach"} onClick={() => {
@@ -54,8 +55,8 @@ const CreatorLastPost = () => {
                                  alt={"creator-shellybeach-img3"}/>
                         </div>
                         <div className={"creator-last-post-post-describe"}><p>Shelly Beach, one of Sydney’s top
-                            snorkelling
-                            destinations</p></div>
+                            snorkelling destinations <span className={"bi bi-arrow-up-right"}></span></p>
+                        </div>
                     </div>
                 </HashLink>
                 <HashLink to={"/blog/gordonbay"} onClick={() => {
@@ -73,10 +74,13 @@ const CreatorLastPost = () => {
                                  alt={"creator-gillerock-img3"}/>
                         </div>
                         <div className={"creator-last-post-post-describe"}><p>Gordons Bay, Sydney’s hidden snorkelling
-                            destination</p></div>
+                            destination <span className={"bi bi-arrow-up-right"}></span></p>
+                        </div>
                     </div>
                 </HashLink>
-                <HashLink to={"/blog/clovelly"}>
+                <HashLink to={"/blog/julianrock"} onClick={() => {
+                    window.scrollTo(0, 0)
+                }}>
                     <div className={"creator-last-post-post"}>
                         <div className={"creator-last-post-img"}>
                             <div className={"creator-last-post-img-row"}>
@@ -89,7 +93,7 @@ const CreatorLastPost = () => {
                                  alt={"creator-offshore-img3"}/>
                         </div>
                         <div className={"creator-last-post-post-describe"}><p>Julian Rocks snorkelling, where temperate
-                            and tropical seas meet</p>
+                            and tropical seas meet <span className={"bi bi-arrow-up-right"}></span></p>
                         </div>
                     </div>
                 </HashLink>

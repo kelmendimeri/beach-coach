@@ -18,6 +18,14 @@
     color: #ffffff;
 }
 
+.skillsMatch-button-gradient-btn {
+    color: black;
+}
+
+.skillsMatch-button-gradient a {
+    color: black;
+}
+
 @media screen and (max-width: 389px) {
     .skillsMatch {
         flex-direction: column;

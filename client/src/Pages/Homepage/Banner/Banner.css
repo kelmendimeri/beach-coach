@@ -8,6 +8,7 @@
 
 .banner-gradient-btn {
     display: flex;
+    color: black;
     flex-direction: row;
     text-transform: uppercase;
     column-gap: 8px;

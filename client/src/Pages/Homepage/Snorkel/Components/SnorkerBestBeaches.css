@@ -88,7 +88,7 @@
         font-size: 12px;
         align-items: center;
         margin: 0;
-        padding: 10px 10px;
+        padding: 10px;
         justify-content: center;
         background: none;
     }
@@ -178,7 +178,7 @@
         align-items: center;
         font-size: 12px;
         margin: 0;
-        padding: 10px 10px;
+        padding: 10px;
         justify-content: center;
         background: none;
     }
@@ -264,7 +264,7 @@
         border: 1px solid;
         align-items: center;
         margin: 0;
-        padding: 10px 15px;
+        padding: 10px;
         justify-content: center;
         background: none;
     }
@@ -352,7 +352,7 @@
         border: 1px solid;
         align-items: center;
         margin: 0;
-        padding: 10px 15px;
+        padding: 10px;
         justify-content: center;
         background: none;
     }
@@ -398,6 +398,7 @@
         margin: 0;
         padding: 0;
     }
+
     .snorkelBestBeaches-text .hr {
         backgroundColor: black;
         border: 1px solid;
@@ -405,6 +406,7 @@
         padding: 0;
         margin: 0;
     }
+
     .snorkelBestBeaches-text-title p {
         font-size: 26px;
         width: 350px;
@@ -438,7 +440,7 @@
         border: 1px solid;
         align-items: center;
         margin: 0;
-        padding: 10px 15px;
+        padding: 10px 10px;
         justify-content: center;
         background: none;
     }
@@ -484,6 +486,7 @@
         margin: 0;
         padding: 0;
     }
+
     .snorkelBestBeaches-text .hr {
         backgroundColor: black;
         border: 1px solid;
@@ -491,6 +494,7 @@
         padding: 0;
         margin: 0;
     }
+
     .snorkelBestBeaches-text-title p {
         font-size: 30px;
         width: 400px;
@@ -524,7 +528,7 @@
         border: 1px solid;
         align-items: center;
         margin: 0;
-        padding: 10px 25px;
+        padding: 10px 15px;
         justify-content: center;
         background: none;
     }
@@ -570,6 +574,7 @@
         margin: 0;
         padding: 0;
     }
+
     .snorkelBestBeaches-text .hr {
         backgroundColor: black;
         border: 1px solid;
@@ -577,6 +582,7 @@
         padding: 0;
         margin: 0;
     }
+
     .snorkelBestBeaches-text-title p {
         font-size: 30px;
         width: 400px;
@@ -610,7 +616,7 @@
         border: 1px solid;
         align-items: center;
         margin: 0;
-        padding: 10px 25px;
+        padding: 10px 15px;
         justify-content: center;
         background: none;
     }

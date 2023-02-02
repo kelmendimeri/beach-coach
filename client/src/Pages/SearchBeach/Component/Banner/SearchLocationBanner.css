@@ -2,6 +2,14 @@
     display: flex;
 }
 
+.gradient-btn-search-beaches {
+    color: black;
+}
+
+.search-location-banner-text-describe a {
+    color: black;
+}
+
 .search-location-banner-text-title {
     font-weight: 700;
     text-transform: uppercase;

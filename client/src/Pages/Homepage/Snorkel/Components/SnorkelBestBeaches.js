@@ -26,18 +26,26 @@ const SnorkelBestBeaches = () => {
                     <input type="radio" id="rock-pools" name="snorkelSelectBestBeach" defaultChecked={true} value="Rock-Pools"/>
                     <label htmlFor="rock-pools">Rock Pools</label>
 
+                    <input type="radio" id="beaches" name="snorkelSelectBestBeach" value="Beaches"/>
+                    <label htmlFor="beaches">Beaches</label>
+
                     <input type="radio" id="bays" name="snorkelSelectBestBeach" value="Bays"/>
                     <label htmlFor="bays">Bays</label>
 
-                    <input type="radio" id="beach" name="snorkelSelectBestBeach" value="Beach"/>
-                    <label htmlFor="beach">Archived</label>
+                    <input type="radio" id="islands" name="snorkelSelectBestBeach" value="Islands"/>
+                    <label htmlFor="islands">Islands</label>
 
-                    <input type="radio" id="ocean-swim" name="snorkelSelectBestBeach" value="Ocean-Swim"/>
-                    <label htmlFor="ocean-swim">Ocean Swim</label>
+                    <input type="radio" id="ship-wrecks" name="snorkelSelectBestBeach" value="Ship-Wrecks"/>
+                    <label htmlFor="ship-wrecks">Ship Wrecks</label>
 
-                    <input type="radio" id="stream" name="snorkelSelectBestBeach" value="Stream"/>
-                    <label htmlFor="stream">Stream</label>
+                    <input type="radio" id="fresh-water" name="snorkelSelectBestBeach" value="Fresh-Water"/>
+                    <label htmlFor="fresh-water">Fresh Water</label>
 
+                    <input type="radio" id="rocky-outcrops" name="snorkelSelectBestBeach" value="Rocky Outcrops"/>
+                    <label htmlFor="rocky-outcrops">Rocky Outcrops</label>
+
+                    <input type="radio" id="marine-parks" name="snorkelSelectBestBeach" value="Marine Parks"/>
+                    <label htmlFor="marine-parks">Marine Parks</label>
                 </div>
             </div>
         </div>

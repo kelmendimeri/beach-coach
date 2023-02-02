@@ -91,7 +91,7 @@ const ShellyBeach = () => {
                             fish such as Trevally. Trevally often put on an impressive display, massing into schools
                             of
                             up to 5,000 fish, all swimming in synchronicity, on a high-speed hunting run. Other fish
-                            common over the Bower includes King fish, Australian Tuna, Australian Salmon. </p>
+                            common over the Bower includes King fish, Australian Tuna and Australian Salmon. </p>
                     </div>
                 </div>
                 <div className={"shelly-beach-text-content-subtext"}>
@@ -161,8 +161,8 @@ const ShellyBeach = () => {
                         <p>Snorkelling conditions</p>
                     </div>
                     <div className={"shelly-beach-text-content-subtext-describe"}>
-                        <p>The calm and clear waters of Shelly Beach range from 2 metres to 12 metres in depth
-                            and reach temperatures of 23 degrees celsius in summer, down to 14 degrees in winter. Winter
+                        <p>The calm and clear waters of Shelly Beach range from 2 metres to 12 metres in depth and reach
+                            temperatures of 23 degrees Celsius in summer, down to 14 degrees in winter. Winter
                             is the ideal snorkel season, when clear water provides the greatest visibility, reaching up
                             to 15 metres in ideal conditions. In summer, when an easterly swell churns up cloudy water,
                             visibility can be reduced to 0.5 metres.</p>
@@ -181,8 +181,9 @@ const ShellyBeach = () => {
                     </div>
                     <div className={"shelly-beach-text-content-subtext-describe"}>
                         <p>Every morning, the world famous, free to join, Bold and Beautiful swim club, swim the
-                            Manly to Shelly, 1.5 km there and back, swim route. With 18,000 registered members and
-                            1500 active members, many of whom are daily swimmers. The Bold and Beautiful swimmers are
+                            Manly to Shelly, 1.5 km there and back, swim route. The club has 18,000 registered members
+                            and 1500 active members, many of whom are daily swimmers. The Bold and Beautiful swimmers
+                            are
                             well acquainted with the endemic sea life and the occasional visitors that swim in with
                             currents or seasonal migration. Many of the Bold and Beautiful swimmers, freedive while on
                             route, for up-close encounters in the under-water world below.</p>
@@ -220,12 +221,9 @@ const ShellyBeach = () => {
                 </div>
                 <div className={"shelly-beach-text-content-subtext"}>
                     <div className={"shelly-beach-text-content-subtext-describe"}>
-                        <p>In certain currents and swells, Salp a harmless to humans, semitransparent marine
-                            animal
-                            floats in. Many snorkellers find Salp an enjoyable experience, like swimming in
-                            pulsating
-                            sago or marshmallow. Salp lives in all layers of the sea and feds on plankton and
-                            algae.
+                        <p>In certain currents and swells, Salp, a harmless to humans, semitransparent marine animal,
+                            floats in. Many snorkellers find Salp an enjoyable experience, like swimming in pulsating
+                            sago or marshmallow. Salp lives in all layers of the sea and feds on plankton and algae.
                             Salp can grow rapidly in length and will increases its population size dramatically
                             when
                             there is an abundance of food.</p>
@@ -234,7 +232,7 @@ const ShellyBeach = () => {
 
                 <div className={"shelly-beach-text-content-links"}>
                     <div>
-                        <p>To plan your snorkelling trip at Julian Rocks visit our satellite view.</p>
+                        <p>To plan your snorkelling trip at Shelly Beach visit our satellite view.</p>
                         <p><Link to={""}>www.beachcoach.app/shelly-beach-location</Link></p>
                     </div>
                     <div>

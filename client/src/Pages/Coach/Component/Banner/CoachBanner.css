@@ -1,5 +1,14 @@
 a {
+    color: black;
     text-decoration: none;
+}
+
+.coach-banner-gradient-btn {
+    color: black;
+}
+
+.coach-banner-text-section a {
+    color: black;
 }
 
 @media screen and (max-width: 389px) {
@@ -10,7 +19,7 @@ a {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;
@@ -81,7 +90,7 @@ a {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;
@@ -152,7 +161,7 @@ a {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;
@@ -222,7 +231,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;
@@ -293,7 +302,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;
@@ -363,7 +372,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;
@@ -433,7 +442,7 @@ a {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-image: url("/src/assets/images/Coach/coachBannerImg.svg");
+        background-image: url("../../../../assets/images/Coach/coachBannerImg.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-color: #000000;

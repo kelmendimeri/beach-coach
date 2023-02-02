@@ -2,6 +2,7 @@ import React from 'react';
 import './FollowFavoriteSpots.css';
 import {HashLink} from 'react-router-hash-link';
 import GradientButton from "../../../Components/GradientButton";
+import mobileViewPhoneBackground from "../../../assets/images/Homepage/mobilePhoneBackground.svg";
 
 const FollowFavoriteSpots = () => {
     return (
@@ -33,6 +34,7 @@ const FollowFavoriteSpots = () => {
                                         icon={<i className={"bi bi-arrow-up-right"}></i>}/>
                     </HashLink>
                 </div>
+                <img className={"mobileViewPhoneBackground"} src={mobileViewPhoneBackground} alt={"phone-background-svg"}/>
             </div>
         </div>
     );

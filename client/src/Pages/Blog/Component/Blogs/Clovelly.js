@@ -61,9 +61,9 @@ const Clovelly = () => {
                     <div className={"clovelly-text-content-subtext-describe"}>
                         <p>You can find different types of creatures in different parts of the pool. Stingrays dwell
                             on the sandy bottoms while Moray Eels are often spotted within the rocks. Out into the
-                            deeper section of the pool, snorkellers can see a vast array of sea creatures swimming
-                            by including turtles, octopus and schools’ fish such as Trevally, Whiting, Sole, Yellow
-                            Tail and Bream.
+                            deeper section of the pool, snorkellers can see a vast array of sea creatures swimming by
+                            including turtles, octopus and schools of fish such as Trevally, Whiting, Sole, Yellow Tail
+                            and Bream.
                         </p>
                     </div>
                 </div>
@@ -72,11 +72,11 @@ const Clovelly = () => {
                         <p>Sections within the pool</p>
                     </div>
                     <div className={"clovelly-text-content-subtext-describe"}>
-                        <p>The north side of the pool is the shallow side. The north side is full of life including
+                        <p>The north side of the pool is the shallow side. The north side is teeming with life including
                             lobsters, prawns, and fish who live among the rock formations, sea grass and kelp beds.
-                            As the pool transitions into deeper sea the water reaches 8 metres depth. In these
-                            deeper waters snorkellers can explore a Crayweed kelp bed and spot Blue Gropers, Ornate
-                            Wobbegong and Giant Cuttlefish. Just outside the bay is a colourful algal garden rich in
+                            As the pool transitions into deeper sea, the water reaches 8 metres depth. In these deeper
+                            waters, snorkellers can explore a Crayweed kelp bed and spot Blue Gropers, Ornate Wobbegong
+                            and Giant Cuttlefish. Just outside the bay is a colourful algal garden rich in
                             browns, reds and greens. The algae gardens are home to to sea snails, sea slugs, sea
                             anemones, crabs and starfish. In calm conditions, experienced snorkellers, snorkel
                             around the rock edges towards Gordons Bay.
@@ -94,11 +94,12 @@ const Clovelly = () => {
                         <p>Learn to ocean swim at Clovelly</p>
                     </div>
                     <div className={"clovelly-text-content-subtext-describe"}>
-                        <p>Ocean swimming is a great way to see fish and exercise, and Clovelly is an ideal venue to
-                            learn to ocean swim. The rocky shores and sea walls block the huge seas and rips that
-                            can occur when swimming at other beaches. The water temperatures drop significantly in
-                            July when the colder currents move into the water. Age is no barrier to ocean swimming
-                            with participants aged from 18 to 85 years, many ocean swimmers at Clovelly have been
+                        <p>Ocean swimming is a great way to see fish and exercise,. Clovelly is an ideal venue to do
+                            both. The rocky shores and sea walls block the huge seas and rips, that can be a hazard at
+                            other beaches. The water temperatures drop significantly in July when the colder currents
+                            move into the water, but cold is no barrier to the daily swimmers at Clovelly, not is age.
+                            The water temperatures drop significantly in July when the colder currents
+                            move into the water.Ocean Swimmers at Clovelly are aged from 18 to 85 years, many have been
                             swimming for over 40 years.
                         </p>
                     </div>
@@ -128,10 +129,10 @@ const Clovelly = () => {
                     </div>
                     <div className={"clovelly-text-content-subtext-describe"}>
                         <p>While water temperatures can drop to 14 degrees Celsius in winter, it can be still warmer
-                            than the outdoor air. The more you swim the better your body it able to regulate its
-                            temperature and generate its own internal heat in cooler waters. Regular winters
-                            swimmers don’t use a wetsuit in winter. If you can’t warm up the idea of swimming and
-                            snorkelling in winter, you can wear a 3.5mm wetsuit.
+                            than the outdoor air. The more you swim, the better your body is able to regulate its
+                            temperature and generate its own internal heat in cooler waters. Regular winters swimmers
+                            don’t typically wear a wetsuit in winter, a 3.5mm wetsuit will keep you comfortable in
+                            termperatures between 9 to 15 degrees Celcius.
                         </p>
                     </div>
                 </div>

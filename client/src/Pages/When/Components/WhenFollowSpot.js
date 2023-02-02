@@ -2,14 +2,14 @@ import React from 'react';
 import {HashLink} from "react-router-hash-link";
 import GradientButton from "../../../Components/GradientButton";
 import './WhenFollowSpot.css';
-import mobileViewPhoneBackground from '../../../assets/images/Homepage/mobileViewPhoneBackground.svg';
+import mobileViewPhoneBackground from '../../../assets/images/When/mobileWhenMobielViewBackground.svg';
 
 const WhenFollowSpot = () => {
     return (
         <div id={"when-follow-spot"} className={"when-follow-spot"}>
             <div className={"when-follow-spot-header-text"}>
                 <div className={"when-follow-spot-text-head-title"}>
-                    <p>Search snorkelling conditions.</p>
+                    <p>Check snorkelling conditions.</p>
                 </div>
             </div>
             <div className={"when-follow-spot-text"}>
@@ -31,12 +31,10 @@ const WhenFollowSpot = () => {
                         <GradientButton className={"when-follow-spot-gradient-btn"} text={"VIEW BLOG"}
                                         icon={<i className={"bi bi-arrow-up-right"}></i>}/>
                     </HashLink>
-                    {/*<HashLink to={"/blog#julianrocks"}>*/}
                     <GradientButton onClick={() => {
                         alert("The service is not available for the moment.")
                     }} className={"when-follow-spot-gray-btn"} text={"FOLLOW BEACH"}
                                     icon={<i className={"bi bi-arrow-up-right"}></i>}/>
-                    {/*</HashLink>*/}
                 </div>
             </div>
             <img className={"mobileViewPhoneBackground"} src={mobileViewPhoneBackground} alt={"phone-background-svg"}/>

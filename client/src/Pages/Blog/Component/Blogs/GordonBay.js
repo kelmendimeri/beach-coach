@@ -75,8 +75,8 @@ const GordonBay = () => {
                     <div className={"gordon-bay-text-content-subtext-describe"}>
                         <p>Snorkelling conditions at Gordons Bay are better than surrounding beaches, as the water
                             is calmer and clearer for snorkelling. The water temperature peaks at 21°C in summer,
-                            falling to 14-18°C during winter. While warmer weather can be more comfortable to snorkel
-                            in temperature, winter snorkelling is better for visibility.</p>
+                            falling to 14-18°C during winter. While warmer weather may be more comfortable to snorkel,
+                            winter snorkelling is better for visibility.</p>
                     </div>
                 </div>
                 <div className={"gordon-bay-text-content-subtext"}>
@@ -108,9 +108,8 @@ const GordonBay = () => {
                         <p>Wrasse</p>
                     </div>
                     <div className={"gordon-bay-text-content-subtext-describe"}>
-                        <p>Snorkellers can expect to see many of the18 species of sea life that regularly inhabit
-                            the
-                            bay. The most famous fish of the area is the friendly and inquisitive Eastern Blue
+                        <p>Snorkellers can expect to see many of the different types of wrasse that regularly inhabit
+                            the bay. The most famous fish of the area is the friendly and inquisitive Eastern Blue
                             Groper.
                             The Eastern Blue Gropers are a female fish population, with one dominant male. When the
                             male

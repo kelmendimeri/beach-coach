@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.when-banner-text a {
+    color: black;
+}
+
 .when-banner-text-title {
     font-weight: 700;
     text-transform: uppercase;
@@ -12,6 +16,7 @@
 }
 
 .gradient-btn-search-beaches {
+    color: black;
     border: 0;
     background: #00D7E5;
     background: linear-gradient(90deg, rgba(0, 215, 229, 1) 0%, rgba(0, 229, 191, 1) 100%);

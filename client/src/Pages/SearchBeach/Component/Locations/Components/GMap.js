@@ -33,6 +33,7 @@ const GMap = () => {
         if (sessionStorage.getItem('location-approved') === "true") {
             getGeoLocation();
             setCircleCenter(myPos);
+            setCenterMap(myPos);
         }
     }, [myPos.lat, myPos.lng]);
 
