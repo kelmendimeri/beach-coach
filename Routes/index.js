@@ -1,14 +1,18 @@
-const express = require("express");
+// const express = require("express");
 const router = require("express").Router();
 const nodemailer = require("nodemailer");
 const connectToDb = require('../Config');
-const path = require("path");
+// const path = require("path");
 
-const frontendFile = path.join(__dirname, '../', 'client', 'build');
+// const frontendFile = path.join(__dirname, '../', 'client', 'build');
 
-router.use(express.static(frontendFile));
+// router.use(express.static(frontendFile));
 
-router.post("/send-form", async (req, res) => {
+router.get("/api/hello", async (req, res) => {
+    return res.status(200).json("Hello Beach Coach User");
+});
+
+router.post("/api/send-form", async (reqwwq, res) => {
     const body = req.body;
     const transport = await nodemailer.createTransport({
         // pool: true,
@@ -37,7 +41,7 @@ router.post("/send-form", async (req, res) => {
 
 })
 
-router.post("/waiting-list",async (req, res) => {
+router.post("/api/waiting-list",async (req, res) => {
     const value = req.body.email;
     let sql = `INSERT INTO waitinglist (email) VALUES ('${value}')`;
 
@@ -56,8 +60,8 @@ router.post("/waiting-list",async (req, res) => {
     });
 });
 
-router.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../', 'client', 'build', 'index.html'));
-});
+// router.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../../', 'client', 'build', 'index.html'));
+// });
 
 module.exports = router;
