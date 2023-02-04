@@ -8,6 +8,7 @@ const connectToDb = require('../Config');
 
 // router.use(express.static(frontendFile));
 
+
 router.get("/api/hello", async (req, res) => {
     return res.status(200).json("Hello Beach Coach User");
 });

@@ -8,7 +8,7 @@ const Subscribe = ({title, describe, ...rest}) => {
     const [isSubscribed, setIsSubscribed] = useState(false);
 
     const onSubmit = data => {
-        axios.post('https://beachcoach.app/waiting-list', {
+        axios.post('https://beachcoach.app/api/waiting-list', {
             email: data.subscribeEmail
         }).then(() => {
             setIsSubscribed(true);

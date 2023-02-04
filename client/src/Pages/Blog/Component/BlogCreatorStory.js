@@ -51,7 +51,7 @@ const BlogCreatorStory = () => {
                                             <img src={creatorStoryHeroImg} alt={"creator-story-hero-img"}/>
                                         </div>
                                     </div>
-                                    <div className={"blog-title"}>Julian Rock</div>
+                                    <div className={"blog-title"}>Julian Rocks</div>
                                 </HashLink>
                             </div>
                             <div className={"blog-example-scroll-blogs-blog"}>

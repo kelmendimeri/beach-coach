@@ -10,7 +10,7 @@ const SendMail = () => {
     const {register, handleSubmit, formState: {errors}, reset} = useForm();
 
     const onSubmit = data => {
-        axios.post('https://beachcoach.app/send-form', {
+        axios.post('https://beachcoach.app/api/send-form', {
             email: data.Email,
             fullName: data.Fullname,
             message: data.Message,
